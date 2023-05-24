@@ -8,6 +8,7 @@
         android:allowBackup="true"
         android:label="@string/app_name" >
         <activity
+            android:exported="true"
             android:name=".activities.AlbumSelectActivity"
             android:label="@string/app_name"
             android:theme="@style/MultipleImageSelectTheme"
@@ -17,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity
+            android:exported="true"
             android:name=".activities.ImageSelectActivity"
             android:label="@string/app_name"
             android:theme="@style/MultipleImageSelectTheme"
